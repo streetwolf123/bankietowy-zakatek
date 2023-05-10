@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: bisque;
+}

@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 215, 176);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 7px 22px 0 rgba(0, 0, 0, 0.21);
+    width: 1000px;
+    margin: 20px;
+    
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.list__item {
+    list-style-type: none;
+}
