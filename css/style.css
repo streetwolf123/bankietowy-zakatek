@@ -13,9 +13,10 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Playfair Display', sans-serif;
-    
     margin: auto;
+    margin-top: 5px;
     padding: 10px;
+    padding-top: 0;
     background-color: bisque;
     
 }

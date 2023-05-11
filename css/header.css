@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(220, 202, 100);
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     font-size: 25px;
     width: 100%;
@@ -12,4 +12,5 @@
     background-size: cover;
     background-attachment: local;
     background-position: center;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 7px 22px 0 rgba(0, 0, 0, 0.21);
 }

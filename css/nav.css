@@ -19,5 +19,9 @@
 }
 
 .navigation__item:hover {
+    color: rgb(8, 8, 141);
+}
+
+.navigation__item:active {
     color: red;
 }
