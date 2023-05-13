@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid grey;
     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
     height: 400px;
