@@ -54,8 +54,10 @@
         grid-template-columns: 280px;
     }
     .form__input {
-        grid-template-columns: 260px;
+        grid-template-columns: 270px;
         grid-template-rows: 30px 30px;
+        margin-top: 20px;
+        margin: 5px;
 
     }
     .form__textarea {
