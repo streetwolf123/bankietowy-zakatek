@@ -37,6 +37,7 @@
     border: 1px solid  rgb(26, 179, 26);
     border-radius: 30%;
     background-color: rgb(26, 179, 26);
+    color: rgb(34, 20, 135);
     transition: 300ms;
 }
 
