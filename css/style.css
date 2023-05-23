@@ -9,21 +9,17 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Playfair Display', sans-serif;
-    margin: auto;
-    margin-top: 5px;
-    padding: 10px;
-    padding-top: 0;
+    margin: 0;
+    font-family: 'Playfair Display',sans-serif ;
     background-color: bisque;
-    
 }
 
-@media(max-width: 1200px) {
-    .body {
-        width: 95%;
+@media(max-width:767px) {
+    body {
+        width: 520px;
+        margin: auto;
     }
 }
+
+
+

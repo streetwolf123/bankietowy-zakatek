@@ -1,67 +1,86 @@
+.section__form {
+    background-image: url(../image/table.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+   
+}
+
+.form__header {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.section__form--dark {
+    background-color: rgba(0, 0, 0, 0.465);
+    height: 700px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px;
-    width: 97%;
-    height: 440px;
-    background-color: rgb(247, 215, 176);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
 }
 
-.form__input {
-    display: grid;
-    grid-template-columns: 250px 260px;
-    justify-content: center;
-    grid-gap: 10px;
-    margin: 20px;
-    margin-top: 30px;
+.form__label {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 800px;
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    border-radius: 15px;
+   
+}
+
+.input__area {
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 800px;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    border-radius: 15px;
+    
+    margin-bottom: 30px;
+}
+
+@media(max-width:767px) {
+    .input {
+      
+       width: 300px;
+    }
+    .input__area {
+        width: 300px;
+    }
 }
 
 .input__number::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-.form__textarea {
-    display: grid;
-    grid-template-rows: 20px 200px;
-    align-items: center;
-    grid-gap: 15px;
-    margin: 30px;
-}
-
 .form__button {
     width: 30%;
     height: 40px;
     margin: auto;
-    border: 1px solid  rgb(26, 179, 26);
-    border-radius: 30%;
-    background-color: rgb(26, 179, 26);
-    color: rgb(34, 20, 135);
+   background-color: rgba(255, 255, 255, 0.335) ;
+   font-size: 20px;
+   color: white;
+   border: 1px solid rgba(255, 255, 255, 0.63);
+    border-radius: 15px;
     transition: 300ms;
 }
 
 .form__button:hover {
     transform: scale(1.1);
     cursor: pointer;
-    background-color: rgb(13, 154, 13);
-    border: 1px solid  rgb(13, 154, 13);
+    background-color: rgba(255, 255, 255, 0.732);
+    border: 1px solid rgba(255, 255, 255, 0.732);
 }
 
-@media(max-width:764px) {
-    .form {
-        display: grid;
-        grid-template-rows: 100px 280px 30px;
-        grid-template-columns: 280px;
-    }
-    .form__input {
-        grid-template-columns: 270px;
-        grid-template-rows: 30px 30px;
-        margin: 5px;
-        margin-top: 20px;
 
-    }
-    .form__textarea {
-        margin: 10px;
-    }
-}

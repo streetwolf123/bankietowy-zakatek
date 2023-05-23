@@ -1,4 +1,35 @@
 .footer {
+    background-color: black;
+    color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.list__component {
+    margin: 10px;
+}
+
+.link__icon {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 40px;
+    transition: 300ms;
+}
+
+.link__icon:hover {
+transform: scale(1.3);
 }

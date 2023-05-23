@@ -1,32 +1,155 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bankietowy Zakątek</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script defer src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/8a7706cbab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    
-                </li>
-                <li>
+    <header class="header">
+        <nav class="navigation header__container--dark">
+            <div class="navigation__component">
+                <a class="navigation__link" href="">Bakietowy Zakątek</a>
+                <a class="navigation__link" href="oferty.html">Oferty</a>
+                <a class="navigation__link" href="galeria.html">Galeria</a>
+                <a class="navigation__link" href=#form>Kontakt</a>
+                <a class="navigation__link" href="about.html">O nas</a>
+            </div>
 
-                </li>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-                <li>
-
-                </li>
-            </ul>
+            <div class="navigation__component">
+                <p class="navigation__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                    ratione
+                    voluptas id assumenda
+                    aspernatur laborum, doloremque consequatur, perspiciatis rerum temporibus minima laudantium
+                    distinctio
+                    beatae ducimus consequuntur fuga eaque cupiditate in!
+                </p>
+            </div>
         </nav>
     </header>
+    <main class="main">
+
+            <article class="main__article section reveal">
+                <p class="article__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut atque quam qui fugiat
+                    consequuntur
+                    cumque vero saepe suscipit, odio recusandae incidunt voluptate cupiditate exercitationem libero
+                    placeat
+                    assumenda laborum molestias.
+                </p>
+                    <img class="article__image"
+                        src="https://lh3.googleusercontent.com/p/AF1QipOHchMr69ErkvQRT-PIrUwPpnu1hvdX26D9K8uG=s680-w680-h510"
+                        alt="">
+            </article>
+
+            <article class="main__article section reveal">
+             
+                    <img class="article__image"
+                        src="https://lh3.googleusercontent.com/p/AF1QipOISrljdirs70kkc2iL5wTrwgDC1TdYjT2-PG03=s680-w680-h510"
+                        alt="">
+           
+                <p class="article__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut atque quam qui fugiat
+                    consequuntur
+                    cumque vero saepe suscipit, odio recusandae incidunt voluptate cupiditate exercitationem libero
+                    placeat
+                    assumenda laborum molestias.
+                </p>
+            </article>
+
+            <article class="main__article section reveal">
+                <p class="article__paragraph">
+                    LLorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut atque quam qui fugiat
+                    consequuntur
+                    cumque vero saepe suscipit, odio recusandae incidunt voluptate cupiditate exercitationem libero
+                    placeat
+                    assumenda laborum molestias.
+                </p>
+               
+                    <img class="article__image"
+                        src="https://lh3.googleusercontent.com/p/AF1QipMI7KKNDBtrZGNSwb-7jsqaFVYP5O5AYqwQ2fho=s680-w680-h510"
+                        alt="">
+       
+            </article>
+
+            <article class="main__article section reveal">
+             
+                    <img class="article__image"
+                        src="https://lh3.googleusercontent.com/p/AF1QipP78mKq61xKxHyJNzfZ2hNa3sH2Lf5UdnQ35o13=s680-w680-h510"
+                        alt="">
+              
+                <p class="article__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut atque quam qui fugiat
+                    consequuntur
+                    cumque vero saepe suscipit, odio recusandae incidunt voluptate cupiditate exercitationem libero
+                    placeat
+                    assumenda laborum molestias.
+                </p>
+            </article>
+
+        <section id="form" class="section__form">
+
+            <div class="section reveal section__form--dark">
+                <h2 class="form__header">Kontakt</h2>
+                <form class="form" method="POST" action="https://formspree.io/f/mqkojbok">
+
+                    <label for="name" class="form__label">*Imię:</label>
+                    <input class="input" required type="text" name="name" id="name" placeholder="Wpisz swoje imię">
+
+                    <label for="number" class="form__label">*Telefon: </label>
+                    <input class="input input__number" type="number" id="number" required
+                        placeholder="Wpisz numer telefonu" class="input__number">
+
+                    <label for="message" class="form__label">*Treść wiadomości: </label>
+                    <textarea class="input__area" required name="message" id="message" cols="40" rows="10"></textarea>
+
+                    <button class="form__button">
+                        Wyślij
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <section class="section reveal ">
+        <footer class="footer">
+            <div class="footer__div">
+                <h3>Dane adresowe:</h3>
+                <ul class="footer__list">
+                    <li class="list__component">ul. Warszawska 107A</li>
+                    <li class="list__component"> 05-120 Legionowo</li>
+                </ul>
+            </div>
+            <div class="footer__div">
+                <h3>Kontakt:</h3>
+                <ul class="footer__list">
+                    <li class="list__component">Telefon: <a href="512 858 920">512 858 920</a></li>
+                    <li class="list__component">E-mail: <a href="przemek2000wp.pl@wp.pl
+                    ">przemek2000wp.pl@wp.pl
+                        </a></li>
+                </ul>
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100091688208736" aria-label="facebook" class="link__icon">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+        </footer>
+    </section>
+
 </body>
+
 </html>
