@@ -2,6 +2,7 @@
     background-image: url("../image/8.jpg");
     background-size: cover;
 }
+
 @media(max-width:767px) {
     .header {
         height: 1000px;
@@ -21,8 +22,9 @@
     font-size: 25px;
     display: flex;
     justify-content: space-around;
-   margin-top: 20px;
-   margin-bottom: 200px;
+    
+    margin-top: 20px;
+    margin-bottom: 180px;
 }
 
 .navigation__link {
@@ -36,6 +38,7 @@
     .navigation__component {
         flex-direction: column;
     }
+
     .navigation__link {
         margin: 10px;
     }
