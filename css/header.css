@@ -1,6 +1,8 @@
 .header {
-    background-image: url("../image/8.jpg");
+    background-image: url("https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/342822344_219760100664932_4538244899026061650_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VcskFqFoK_gAX-i6vio&_nc_ht=scontent-waw1-1.xx&oh=00_AfA0OlN5hTIz8Dxpsx22kFWfg7qFwt-78cfnub9q3ShJrg&oe=64A1C52E");
     background-size: cover;
+    background-position: top;
+    
 }
 
 @media(max-width:767px) {
@@ -22,7 +24,6 @@
     font-size: 25px;
     display: flex;
     justify-content: space-around;
-    
     margin-top: 20px;
     margin-bottom: 180px;
 }
