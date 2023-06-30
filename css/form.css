@@ -1,6 +1,6 @@
 .section__form {
     background-image: url(../image/table.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     width: 100%;

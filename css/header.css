@@ -72,6 +72,10 @@
     height: 800px;
 }
 
+.component__paragraph:hover {
+    transform: scale(1.001);
+}
+
     .navigation__component {
         flex-direction: column;
     }
