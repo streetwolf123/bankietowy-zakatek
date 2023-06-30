@@ -17,7 +17,7 @@
 @media(max-width: 767px) {
     .main__article {
         margin: 10px;
-        width: 70%;
+        width: 75%;
         flex-direction: column;
     }
 }
